@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sofia+Sans+Condensed:ital,wght@0,200;1,400;1,1000&family=Titillium+Web:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Martian+Mono:wght@200&family=Roboto+Mono:wght@500&family=Sofia+Sans+Condensed:ital,wght@0,200;1,400;1,1000&family=Source+Code+Pro:wght@200&family=Titillium+Web:ital,wght@1,700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(pbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sidebar{
+    background: rgb(207, 204, 204);
+    /* width: 300px; */
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: large;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+  
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+    margin-top: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+
+    /* background: linear-gradient(to bottom right, rgb(7, 212, 99), pink); */
+    /* background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%); */
+    width: 87vw;
+}
+.container {
+    display: flex;
+}
+.infoContainer{
+    height: 58vh;
+    width: 80vw;
+    margin: 77px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Martian Mono', monospace;
+    white-space: nowrap;
+    position: absolute;
+    left: 350px;
+    top: 170px;
+
+    
+  
+}
+.hello{
+    font-size: 55px;
+    color: white;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.about{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+
+}
+.button{
+    margin-top: 55px;
+}
+
+.btn{
+    padding: 9px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(133, 193, 66);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    font-family:'Martian Mono', monospace;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(133, 193, 66);
+}
+
+.devPic img{
+    height: 58vh;
+    position: absolute;
+    right: 0; 
+    padding-top: 183px;
+    padding-right: 75px;
+}
+.contactForm {
+    padding: 0 34px;
+    padding-top: 150px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white; 
+    margin-left: 90px;
+
+}
+
+.contactForm h1{
+    font-family: 'Martian Mono', monospace;
+    margin-bottom: 60px;
+
+}
+.contactForm form div {
+    padding: 7px 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+    width: 270px;
+    border-radius: 7px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    margin-left: -2px;
+}
+#emailHelp{
+    font-size: 9px;
+    color: rgb(182, 182, 229);
+    margin: 0 5px;
+    font-style: italic;
+}
+#form-check{
+    flex-direction: row;
+    margin-left: -6px;
+}
+#form-check input{
+    width:25px;
+    margin: 3px 0;
+}
+.blogContainer{
+    color: white;
+    margin-left: 90px;
+}
+.blogItem{
+    color: white;
+    padding: 0 34px;
+    padding-top: 35px;
+    
+    
+}
+.blogContainer h1{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    padding: 0 34px;
+    padding-top: 150px;
+}
+.blogItem h2{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.blogItem p{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+}
+
+
+
+/* *** FOR INTRO PAGE *** */
+.infoContainer-intro{
+    width: 80vw;
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.devInfo-intro{
+    color: white;
+    
+}
+
+.devInfo-intro h1{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    padding: 0 34px;
+    padding-top: 150px;
+
+}
+
+.devInfo-intro h2{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+
+    padding: 0 34px;
+    margin-top: 50px;
+}
+
+.devInfo-intro p{
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    padding: 0 34px;
+    margin-top: 10px;
+}
+
+.devPic-intro img{
+    height: 58vh;
+    position: absolute;
+    right: 0; 
+    
+    padding-top: 259px;
+    padding-right: 75px;
+}
+
+.skillContainer li{
+    font-size: 20px;
+    font-family: 'Martian Mono', monospace;
+    padding: 0 34px;
+    margin-top: 10px;
+}
+.skillContainer p{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+    margin-left: 30px;
+
+}
+/* @media (max-width:576px){
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */
+/* .main{
+    -ms-flex-align:stretch!important ;
+    align-items: stretch!important;
+} */
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+   position:absolute;
+   cursor: pointer; 
+   top:10px;
+   left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.cross{
+    margin-left: 135px ;
+}
